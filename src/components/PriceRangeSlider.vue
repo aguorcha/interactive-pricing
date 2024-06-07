@@ -1,11 +1,9 @@
 <script setup>
-import { ref } from 'vue'
 
 defineProps({
   msg: String,
 })
 
-const count = ref(0)
 </script>
 
 <template>
@@ -23,7 +21,7 @@ const count = ref(0)
       </div>
 
       <div class="toggle-container flex items-center justify-between text-xs text-grayish-blue mt-7 font-semibold space-x-2 sm:mt-24 sm:ml-20 sm:justify-evenly">
-        <p class="monthly ">Monthly Billing</p>
+        <p class="monthly">Monthly Billing</p>
         <label class="relative inline-flex cursor-pointer items-center">
           <input id="switch" type="checkbox" class="peer sr-only" />
           <label for="switch" class="hidden"></label>

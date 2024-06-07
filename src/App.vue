@@ -1,5 +1,6 @@
 <script setup>
-  import PriceRangeSlider from './components/PriceRangeSlider.vue'
+  import PriceRangeSlider from './components/PriceRangeSlider.vue';
+  import TrialComponent from './components/TrialComponent.vue';
 </script>
 
 <template>
@@ -12,7 +13,10 @@
       </div>
     </header>
 
-    <PriceRangeSlider />
+    <div class="relative">
+      <PriceRangeSlider />
+      <TrialComponent />
+    </div>
   </div>
 </template>
 
