@@ -8,10 +8,10 @@ defineProps({
 
 <template>
   <div class="relative w-screen">
-    <div class="w-[90%] max-w-lg absolute mt-[280px] left-1/2 -translate-x-1/2 p-8 flex flex-col items-center bg-white font-manrope rounded-tl-6 rounded-tr-6 shadow-md sm:items-stretch">
+    <div class="w-[90%] max-w-lg absolute mt-[250px] left-1/2 -translate-x-1/2 p-8 flex flex-col items-center bg-white font-manrope rounded-tl-6 rounded-tr-6 shadow-md sm:items-stretch">
       <div class="title-container flex flex-col sm:flex-row sm:justify-between items-center">
         <h3 class="text-grayish-blue font-extrabold text-sm tracking-wider">100K PAGEVIEWS</h3>
-        <p class="mt-20 sm:mt-0 text-grayish-blue flex items-center" id="amount-container"><span class="text-3xl font-extrabold text-dark-desaturated-blue mr-3" id="amount">$16.00</span> / month</p>
+        <p id="duration" class="mt-20 sm:mt-0 text-grayish-blue flex items-center"><span class="text-3xl font-extrabold text-dark-desaturated-blue mr-3" id="amount">$16.00</span> / month</p>
         <div id="slider-container" class="sm:left-1/2 sm:-translate-x-1/2 w-4/5 h-2.5 bg-light-grayish-blue-slider rounded-full absolute mt-14 sm:mt-28">
           <div id="slider-track" class="absolute top-0 left-0 w-full h-full bg-transparent"></div>
           <div id="slider-thumb" class="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[34px] h-[34px] bg-strong-cyan hover:bg-soft-cyan active:bg-strong-cyan active:cursor-[grabbing] rounded-full cursor-pointer flex justify-center items-center">
