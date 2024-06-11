@@ -8,7 +8,7 @@ defineProps({
 
 <template>
   <div class="relative w-screen">
-    <div class="w-[90%] max-w-lg absolute mt-[504px] sm:mt-[472px] left-1/2 -translate-x-1/2 p-8 flex flex-col items-center sm:flex-row sm:justify-between sm:px-12 bg-white font-manrope rounded-bl-6 rounded-br-6 shadow-md">
+    <div class="w-[90%] max-w-lg absolute mt-[504px] sm:mt-[482px] left-1/2 -translate-x-1/2 p-8 flex flex-col items-center sm:flex-row sm:justify-between sm:px-12 bg-white font-manrope rounded-bl-6 rounded-br-6 shadow-md">
       <div class="data flex flex-col items-center text-xs font-semibold text-grayish-blue sm:items-start">
         <div class="flex">
           <img class="w-3 h-3 mt-1" src="/src/assets/images/icon-check.svg" alt="Check Icon">
